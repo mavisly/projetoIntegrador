@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface PostagemRepository extends JpaRepository<Postagens, Long> {
+public interface PostagensRepository extends JpaRepository<Postagens, Long> {
     List<Postagens> findAllByAtendimentoContainingIgnoreCase(@Param("atendimento") String atendimento);
 }
