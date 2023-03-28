@@ -50,7 +50,6 @@
 			<artifactId>h2</artifactId>
 			<version>1.3.156</version>
 		</dependency>
-<<<<<<< HEAD
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
@@ -59,8 +58,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-=======
->>>>>>> 0da69492e2508e591e23b884c0871f20c2240f75
 	</dependencies>
 	<build>
 		<plugins>
