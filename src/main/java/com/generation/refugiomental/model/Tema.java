@@ -24,7 +24,7 @@ public class Tema {
 
 	@NotBlank
 	@Size(min = 10, max = 100, message = "O atributo não pode estar vazio")
-	private String nome;
+	private String nome; //Título: dicas sociais, avaliação, indicação...etc
 
 	@NotBlank
 	@Size(min = 10, max = 100, message = "O atributo não pode estar vazio")

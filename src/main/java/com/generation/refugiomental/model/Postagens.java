@@ -34,7 +34,7 @@ public class Postagens {
 	@Size(min = 5, max = 100, message = "O atributo não pode estar vazio")
 	private String modalidade_categoria;
 
-	@NotBlank
+	
 	private int avaliacao;
 
 	@NotBlank
@@ -44,6 +44,10 @@ public class Postagens {
 	@ManyToOne
 	@JsonIgnoreProperties("postagens")
 	private Tema tema;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("postagens")
+	private Usuario usuario;
 
 	public Long getId() {
 		return id;
