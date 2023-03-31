@@ -32,11 +32,11 @@ public class BasicSecurityConfig {
 
 		http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().csrf().disable().cors();
 
-		http.authorizeHttpRequests((auth) -> auth.requestMatchers("/usuarios/logar").permitAll()
-				.requestMatchers("/usuarios/cadastrar").permitAll().requestMatchers("/postagens").permitAll()
-				.requestMatchers(HttpMethod.OPTIONS).permitAll().anyRequest().authenticated()).httpBasic();
-
+		http.authorizeHttpRequests((auth) -> auth
+				.requestMatchers("/usuarios/logar").permitAll()
+				.requestMatchers("/usuarios/cadastrar").permitAll()
+				.requestMatchers(HttpMethod.OPTIONS).permitAll()
+				.anyRequest().authenticated()).httpBasic();
 		return http.build();
-
 	}
 }
