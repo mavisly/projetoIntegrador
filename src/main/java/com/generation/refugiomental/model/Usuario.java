@@ -33,7 +33,6 @@ public class Usuario {
 	private String usuario;
 
 	@NotBlank
-	@Email(message = "O email não é nulo")
 	private String email;
 
 	@NotBlank
