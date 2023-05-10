@@ -1,7 +1,7 @@
 <h1 align="center"> Refúgio Mental </h1> <br>
 <p align="center">
   <a href="" alt="link do deploy">
-    <img alt="Logo do Refúgio Mental" title="Refúgio-Mental" src="src\img\logo-rm-sf.png" width="400">
+    <img alt="Logo do Refúgio Mental" title="Refúgio-Mental" src="src\img\logo.png" width="400">
   </a>
 </p>
 
